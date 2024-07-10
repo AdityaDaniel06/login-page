@@ -1,0 +1,49 @@
+.bg-color {
+  background-color: #dfd0e7;
+  height: 100vh;
+}
+.left-side-bg {
+  background-color: #fff;
+}
+.right-side-bg {
+  background-image: url("../assist/stacked-waves-haikei.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login-with-custom {
+  background-color: #fff;
+  border: 1px solid #7e4d98;
+  color: #7e4d98;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-with-custom:hover {
+  background-color: #7e4d98;
+  color: #fff;
+}
+.login-box {
+  width: 80%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-btn {
+  background-color: #7e4d98;
+  border: 1px solid #7e4d98;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.login-btn:hover {
+  background-color: #fff;
+  color: #7e4d98;
+}
